@@ -30,26 +30,3 @@ cd lab-site
 python3 -m http.server 8000
 # visit http://localhost:8000
 ```
-
-## Free hosting options
-
-**GitHub Pages (recommended, free, custom domain support)**
-1. Create a new GitHub repository and push the contents of this folder.
-2. Repo → Settings → Pages → Source: "Deploy from branch" → `main` / `/root`.
-3. Your site will be live at `https://<username>.github.io/<repo>/` within a
-   couple of minutes.
-
-**Netlify (free, drag-and-drop)**
-1. Go to https://app.netlify.com/drop
-2. Drag the `lab-site` folder onto the page.
-3. Netlify gives you a live URL immediately; you can rename it or attach a
-   custom domain for free.
-
-**Vercel (free)**
-1. https://vercel.com/new → "Deploy" → upload this folder or connect a repo.
-
-Any of these three will host the site for free indefinitely on a subdomain
-(e.g. `softcomputinglab-iitr.netlify.app`), and all support attaching a
-custom domain later if the lab acquires one (e.g. via IIT Roorkee's own
-domain infrastructure, which the institute's IT services can usually
-subdomain for a lab, e.g. `scl.iitr.ac.in`).
