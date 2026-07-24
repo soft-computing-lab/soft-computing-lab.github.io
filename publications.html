@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Publications — Soft Computing Lab, IIT Roorkee</title>
+<link rel="icon" href="images/iitr-logo.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <img src="images/iitr-logo.png" alt="IIT Roorkee crest">
+      <div>
+        <div class="name">Soft Computing Lab</div>
+        <div class="sub">Dept. of Applied Mathematics and Scientific computing · IIT Roorkee</div>
+      </div>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="announcements.html">Announcements</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">Publications</div>
+    <h1>460+ papers, one search box.</h1>
+    <p>Journal articles are drawn from the lab's curated record; conference papers and edited volumes are a selected set. For the complete, continuously updated list, see the Google Scholar profile.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="pub-controls">
+      <div class="pub-tabs">
+        <button data-mode="journals" class="active">Journal Articles</button>
+        <button data-mode="conferences">Conferences &amp; Edited Volumes</button>
+      </div>
+      <input type="text" id="pubSearch" class="pub-search" placeholder="Search by title, author or venue…">
+      <select id="pubYear" class="pub-year-filter"></select>
+      <a href="https://scholar.google.co.in/citations?user=VEAXM8IAAAAJ&hl=en" target="_blank" rel="noopener" class="btn btn-dark" style="padding:10px 18px;">Full list on Scholar ↗</a>
+    </div>
+    <div class="pub-count" id="pubCount"></div>
+    <div class="pub-list" id="pubList"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Soft Computing Lab</h4>
+        <p style="color:#8593AA; font-size:14px; max-width:32ch;">Department of Applied Mathematics And Scientific Computing, Indian Institute of Technology Roorkee, SRE Campus, Uttar Pradesh 247001, India.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <a href="people.html">People</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="announcements.html">Announcements</a>
+        <a href="about.html">About</a>
+      </div>
+      <div>
+        <h4>Links</h4>
+        <a href="https://scholar.google.co.in/citations?user=VEAXM8IAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar ↗</a>
+        <a href="https://www.iitr.ac.in" target="_blank" rel="noopener">IIT Roorkee ↗</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Soft Computing Lab, IIT Roorkee.</span>
+      <span>Built for the lab · content editable in /data</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="data/pub-data.js"></script>
+<script src="js/publications.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => { window.PubData.initPublicationsPage(); });
+</script>
+</body>
+</html>

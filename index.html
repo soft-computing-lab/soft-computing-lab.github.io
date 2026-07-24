@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soft Computing Lab — IIT Roorkee</title>
+<meta name="description" content="Soft Computing Lab, Department of Applied Mathematics and Scientific computing, IIT Roorkee — research in AI, Machine Learning, Deep learning, numerical optimization, evolutionary algorithms and swarm intelligence, led by Prof. Millie Pant.">
+<link rel="icon" href="images/iitr-logo.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <img src="images/iitr-logo.png" alt="IIT Roorkee crest">
+      <div>
+        <div class="name">Soft Computing Lab</div>
+        <div class="sub">Dept. of Applied Mathematics and Scientific computing · IIT Roorkee</div>
+      </div>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="announcements.html">Announcements</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Department of Applied Mathematics and Scientific computing · IIT Roorkee</div>
+      <h1>Searching rugged<br>landscapes for the<br><em>global optimum.</em></h1>
+      <p class="lede">We design evolutionary and swarm-based algorithms — differential evolution, particle swarm, artificial bee colony — and apply them to optimization, decision-making, healthcare and industry problems, under the direction of Prof. Millie Pant.</p>
+      <div class="hero-actions">
+        <a href="research.html" class="btn btn-primary">Explore our research</a>
+        <a href="people.html" class="btn btn-ghost">Meet the group</a>
+      </div>
+    </div>
+    <div>
+      <div class="swarm-stage">
+        <canvas id="swarmCanvas"></canvas>
+        <div class="swarm-caption">
+          <span>LIVE — PARTICLE SWARM, N=60</span>
+          <span>CONVERGING ON GLOBAL BEST</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="stats-strip">
+  <div class="wrap stats-grid">
+    <div class="stat"><div class="num">11,794</div><div class="lbl">Citations</div></div>
+    <div class="stat"><div class="num">48</div><div class="lbl">h-index</div></div>
+    <div class="stat"><div class="num">188</div><div class="lbl">i10-index</div></div>
+    <div class="stat"><div class="num">460+</div><div class="lbl">Publications</div></div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Research areas</div>
+        <h2>Four problems we keep<br>coming back to.</h2>
+      </div>
+      <a href="research.html" class="tag-link">View all research →</a>
+    </div>
+    <div class="card-grid">
+      <div class="research-card">
+        <span class="idx">EA / DE</span>
+        <h3>Evolutionary Algorithms</h3>
+        <p>AI, Machine Learning, Deep learning, Differential evolution, genetic algorithms and their hybrids for global optimization — mutation strategies, adaptive parameters and convergence behaviour.</p>
+      </div>
+      <div class="research-card">
+        <span class="idx">PSO / ABC</span>
+        <h3>Swarm Intelligence</h3>
+        <p>Particle swarm and artificial bee colony optimization, applied to engineering design, image processing and watermarking.</p>
+      </div>
+      <div class="research-card">
+        <span class="idx">MCDM / DEA</span>
+        <h3>Decision Sciences</h3>
+        <p>Multi-criteria decision making and data envelopment analysis for supplier selection, education and industry benchmarking.</p>
+      </div>
+      <div class="research-card">
+        <span class="idx">ML / AI</span>
+        <h3>AI for Healthcare</h3>
+        <p>Machine learning and explainable AI for medical imaging, mental health assessment and clinical decision support.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">People</div>
+        <h2>Led by Prof. Millie Pant.</h2>
+      </div>
+      <a href="people.html" class="tag-link">Meet the full group →</a>
+    </div>
+    <div class="pi-card">
+      <img src="images/millie-pant.jpg" alt="Prof. Millie Pant" class="pi-photo">
+      <div>
+        <h3>Prof. Millie Pant</h3>
+        <span class="pi-role">Professor, Applied Mathematics and Scientific computing · IIT Roorkee</span>
+        <p>Prof. Pant leads the Soft Computing Lab, working on AI, Machine Learning, Deep learning, numerical optimization, evolutionary algorithms and swarm intelligence techniques. Her research spans theory and application — from differential evolution and particle swarm optimization to their use in healthcare, supply chains and decision-making.</p>
+        <div class="pi-links">
+          <a href="https://scholar.google.co.in/citations?user=VEAXM8IAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar profile ↗</a>
+          <a href="people.html">Full profile & group →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Latest work</div>
+        <h2>Recent publications.</h2>
+      </div>
+      <a href="publications.html" class="tag-link">Browse all publications →</a>
+    </div>
+    <div class="pub-list" id="recentPubs"></div>
+  </div>
+</section>
+
+<section class="section-dark">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Announcements</div>
+        <h2 style="color:#fff">What's new in the lab.</h2>
+      </div>
+      <a href="announcements.html" class="tag-link" style="color:#E0C77F">All announcements →</a>
+    </div>
+    <div class="card-grid" style="grid-template-columns: repeat(3,1fr)">
+      <div class="research-card" style="background:#16233A; border-color:#2A3A56;">
+        <span class="idx">2026</span>
+        <h3 style="color:#fff; font-size:17px;">New journal papers accepted</h3>
+        <p style="color:#B7C0D1">Several 2026 papers now published, including work in Applied Soft Computing and Information Sciences.</p>
+      </div>
+      <div class="research-card" style="background:#16233A; border-color:#2A3A56;">
+        <span class="idx">Ongoing</span>
+        <h3 style="color:#fff; font-size:17px;">Prospective students</h3>
+        <p style="color:#B7C0D1">We welcome enquiries from motivated students interested in optimization, evolutionary computation and AI.</p>
+      </div>
+      <div class="research-card" style="background:#16233A; border-color:#2A3A56;">
+        <span class="idx">SocProS</span>
+        <h3 style="color:#fff; font-size:17px;">SocProS conference series</h3>
+        <p style="color:#B7C0D1">The lab continues to co-organize the Soft Computing for Problem Solving (SocProS) conference series.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Soft Computing Lab</h4>
+        <p style="color:#8593AA; font-size:14px; max-width:32ch;">Department of Applied Mathematics And Scientific Computing, Indian Institute of Technology Roorkee, SRE Campus, Uttar Pradesh 247001, India.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <a href="people.html">People</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="announcements.html">Announcements</a>
+        <a href="about.html">About</a>
+      </div>
+      <div>
+        <h4>Links</h4>
+        <a href="https://scholar.google.co.in/citations?user=VEAXM8IAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar ↗</a>
+        <a href="https://www.iitr.ac.in" target="_blank" rel="noopener">IIT Roorkee ↗</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Soft Computing Lab, IIT Roorkee.</span>
+      <span>Built for the lab · content editable in /data</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/swarm.js"></script>
+<script src="data/pub-data.js"></script>
+<script src="js/publications.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    if(window.PubData){ window.PubData.renderRecent('recentPubs', 5); }
+  });
+</script>
+</body>
+</html>
