@@ -2,7 +2,7 @@
 
 A static website for the Soft Computing Lab (Prof. Millie Pant), Department of
 Mathematics, IIT Roorkee. Plain HTML/CSS/JS — no build step, no server required.
-https://soft-computing-lab.github.io/Soft-Computing-Lab/
+Click here --> https://soft-computing-lab.github.io/
 ## Pages
 - `index.html` — Home
 - `people.html` — PI, research group, collaborators
