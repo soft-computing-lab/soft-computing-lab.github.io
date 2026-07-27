@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://soft-computing-lab.github.io/Soft-Computing-Lab/sitemap.xml
+Sitemap: https://soft-computing-lab.github.io/sitemap.xml
